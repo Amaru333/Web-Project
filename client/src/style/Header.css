@@ -1,0 +1,50 @@
+.header {
+    background-color: #202020;
+    display: flex;
+    width: auto;
+    margin: auto;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    align-items: center;
+}
+
+.logo, .nav-link, .cart {
+    display: flex;
+}
+  
+.logo {
+    flex: 3;
+    margin-left: 20px;
+}
+  
+.nav-link {
+    justify-content: space-around;
+    list-style: none;
+}
+  
+.navlink {
+    color: #efefef;
+    text-decoration: none;
+}
+  
+.logoname {
+    font-size: 30px;
+}
+  
+nav {
+    flex: 1.2;
+}
+  
+.cartcontainer{
+    width: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+  
+.cart {
+    flex: 0.5;
+    height: 30px;
+    justify-content: right;
+}

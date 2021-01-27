@@ -1,0 +1,15 @@
+.store {
+  background: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.StorePageProduct {
+  display: flex;
+  width: 98vw;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-flow: wrap;
+}
